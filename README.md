@@ -16,4 +16,4 @@ CVTRPGFRP1.PRTF     - Printer file
 CVTRPGFRER.SQLRPGLE - SQLRPGLE program
 ```
 
-Please submit any issues or requests [sourceforge](https://sourceforge.net/p/cvtrpgfree/tickets/)
+Please submit any issues or requests [via sourceforge](https://sourceforge.net/p/cvtrpgfree/tickets/)
