@@ -30,4 +30,4 @@ BUILD.CLLE          - Installation
 BUILD.TXT           - Installation
 ```
 
-The ILE CL source and TMKMAKE script that automate installation via PASERIE utility.
+The ILE CL source and TMKMAKE script that automate installation via *PASERIE* utility.
