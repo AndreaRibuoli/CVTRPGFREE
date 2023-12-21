@@ -17,3 +17,15 @@ CVTRPGFRER.SQLRPGLE - SQLRPGLE program
 ```
 
 Please submit any issues or requests [via sourceforge](https://sourceforge.net/p/cvtrpgfree/tickets/)
+
+----
+
+by *Andrea Ribuoli*
+
+Files included:
+
+```
+
+```
+
+The ILE CL source and TMKMAKE script that automate installation via PASERIE utility.
