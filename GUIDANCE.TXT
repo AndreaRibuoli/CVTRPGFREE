@@ -3,5 +3,5 @@ QUIMSRC   CVTRPGFREHPNLGRP    Command help panel group
 QCLSRC    CVTRPGFRECCLLE      Command processing program
 QDDSSRC   CVTRPGFRP1PRTF      Printer file
 QRPGLESRC CVTRPGFRERSQLRPGLE  SQLRPGLE program
-QCLSRC    BUILD     CLLE      Installazione
-QMAKSRC   BUILD     TXT       Installazione
+QCLSRC    BUILD     CLLE      Installation
+QMAKSRC   BUILD     TXT       Installation
