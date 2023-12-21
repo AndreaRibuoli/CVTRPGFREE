@@ -25,7 +25,9 @@ by *Andrea Ribuoli*
 Files included:
 
 ```
-
+GUIDANCE.TXT        - Required source files for IBM i installation
+BUILD.CLLE          - Installation
+BUILD.TXT           - Installation
 ```
 
 The ILE CL source and TMKMAKE script that automate installation via PASERIE utility.
