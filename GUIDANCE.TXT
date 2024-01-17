@@ -1,3 +1,4 @@
+*LANGUAGE 2932                Italian 
 QCMDSRC   CVTRPGFREECMD       Command
 QUIMSRC   CVTRPGFREHPNLGRP    Command help panel group
 QCLSRC    CVTRPGFRECCLLE      Command processing program
