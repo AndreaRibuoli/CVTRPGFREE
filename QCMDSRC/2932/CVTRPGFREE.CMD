@@ -44,48 +44,54 @@
                           PMTCTL(*PMTRQS) PROMPT('Indenta i commenti?')
 
              PARM       KWD(RETBLKCMT) TYPE(*CHAR) LEN(1) RSTD(*YES) DFT(N) VALUES(Y N) +
-                          PMTCTL(*PMTRQS) PROMPT('Mantieni i marcatori di commento vuoti?')
+                          PMTCTL(*PMTRQS) PROMPT('Marcatori commento vuoti?')
 
              PARM       KWD(RMVCMTEND) TYPE(*CHAR) LEN(1) RSTD(*YES) DFT(Y) VALUES(Y N) +
-                          PMTCTL(*PMTRQS) PROMPT('Rimuovi i marcatori di fine commento?')
+                          PMTCTL(*PMTRQS) PROMPT('Rimuovi marcat. fine commento?')
 
              PARM       KWD(RMVNONPRT) TYPE(*CHAR) LEN(1) RSTD(*YES) DFT(Y) VALUES(Y N) +
-                          PMTCTL(*PMTRQS) PROMPT('Rimuovi i caratteri non stampabili?')
+                          PMTCTL(*PMTRQS) PROMPT('Rimuovi caratteri non stampa.?')
 
              PARM       KWD(DIRECTIVES) TYPE(*CHAR) LEN(1) RSTD(*YES) DFT(N) VALUES(Y N) +
-                          PMTCTL(*PMTRQS) PROMPT('Utilizza le direttive del compilatore /Free?')
+                          PMTCTL(*PMTRQS) PROMPT('Utilizza direttive comp /Free?')
 
              PARM       KWD(CNVMOVE) TYPE(*CHAR) LEN(1) RSTD(*YES) DFT(Y) +
                           VALUES(Y N) CASE(*MONO) PMTCTL(*PMTRQS) +
                           PROMPT('Converti le istruzioni MOVE?')
 
              PARM       KWD(CNVKLIST) TYPE(*CHAR) LEN(1) RSTD(*YES) DFT(Y) VALUES(Y N) +
-                          CASE(*MONO) PMTCTL(*PMTRQS) PROMPT('Converti gli elenchi di chiavi?')
+                          CASE(*MONO) +
+                          PMTCTL(*PMTRQS) PROMPT('Converti elenchi di chiavi?')
 
              PARM       KWD(RETKLIST) TYPE(*CHAR) LEN(1) RSTD(*YES) DFT(Y) VALUES(Y N) +
-                          CASE(*MONO) PMTCTL(*PMTRQS) PROMPT('Mantieni gli elenchi di chiavi convertiti?')
+                          CASE(*MONO) +
+                          PMTCTL(*PMTRQS) PROMPT('Mantieni elen. chiavi conver.?')
 
              PARM       KWD(CNVPLIST) TYPE(*CHAR) LEN(1) RSTD(*YES) DFT(Y) VALUES(Y N) +
-                          CASE(*MONO) PMTCTL(*PMTRQS) PROMPT('Converti gli elenchi di parametri?')
+                          CASE(*MONO) +
+                          PMTCTL(*PMTRQS) PROMPT('Converti elenchi di parametri?')
                        
              PARM       KWD(RETPLIST) TYPE(*CHAR) LEN(1) RSTD(*YES) DFT(Y) VALUES(Y N) +
-                          CASE(*MONO) PMTCTL(*PMTRQS) PROMPT('Mantieni gli elenchi di parametri convertiti?')
+                          CASE(*MONO) +
+                          PMTCTL(*PMTRQS) PROMPT('Mantieni elenchi parm conver.?')
 
              PARM       KWD(SUPCNVMSGS) TYPE(*CHAR) LEN(1) RSTD(*YES) DFT(N) VALUES(Y N) +
-                          CASE(*MONO) PMTCTL(*PMTRQS) PROMPT('Sopprima i messaggi di conversione?')
+                          CASE(*MONO) +
+                          PMTCTL(*PMTRQS) PROMPT('Sopprimi messaggi conversione?')
 
              PARM       KWD(OPCODECASE) TYPE(*CHAR) LEN(6) RSTD(*YES) DFT(*MIXED) +
-                          SPCVAL((*UPPER) (*LOWER) (*MIXED)) PMTCTL(*PMTRQS) PROMPT('Op-code +
-                          case')
+                          SPCVAL((*UPPER) (*LOWER) (*MIXED)) +
+                          PMTCTL(*PMTRQS) PROMPT('Op-code case')
 
              PARM       KWD(CNVFULL) TYPE(*CHAR) LEN(1) RSTD(*YES) DFT(N) VALUES(Y N) +
                           CASE(*MONO) PROMPT('Converti in full-free?')
 
              PARM       KWD(RTNLINMKR) TYPE(*CHAR) LEN(1) RSTD(*YES) DFT(N) VALUES(Y N) +
-                          CASE(*MONO) PMTCTL(PMTCNVFULL) PROMPT('Mantieni i marcatori di linea?')
+                          CASE(*MONO) +
+                          PMTCTL(PMTCNVFULL) PROMPT('Mantieni marcatori linea?')
 
-             PARM       KWD(RETMODDAYS) TYPE(*DEC) LEN(3) DFT(999) PMTCTL(*PMTRQS) +
-                          PROMPT('Giorni di conservazione mod-marker')
+             PARM       KWD(RETMODDAYS) TYPE(*DEC) LEN(3) DFT(999) +
+                          PMTCTL(*PMTRQS) PROMPT('Giorni conserv. modif.marker')
 
              PARM       KWD(LOGCNV) TYPE(*CHAR) LEN(1) RSTD(*YES) DFT(Y) VALUES(Y N) +
                           PMTCTL(*PMTRQS) PROMPT('Registrazione conversione?')
